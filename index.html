@@ -4,9 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Saludar</title>
+    <script src="eventos.js" defer></script>
+    <style>
+        .contenedor-boton {
+            padding: 5px;
+            background-color: green;
+        }
+    </style>
 </head>
 <body>
-    <h1>Bienvenido!</h1>
-    <button onclick="alert('¡Hola!')">Saludar</button>
+    <h1>Bienvenido</h1>
+    <div class="contenedor-boton">
+        <button onclick="saludar()">Saludar</button>
+    </div>
 </body>
 </html>
